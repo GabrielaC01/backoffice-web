@@ -1,12 +1,95 @@
-# React + Vite
+# 🍽️ Panel de Administración de Restaurantes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para la gestión de productos y restaurantes con autenticación, panel de resumen y diseño responsivo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades implementadas
 
-## Expanding the ESLint configuration
+- ✅ Inicio de sesión con credenciales básicas.
+- ✅ Menú de navegación dinámico.
+- ✅ CRUD completo de productos y restaurantes (crear, listar, editar, eliminar).
+- ✅ Visualización de productos por restaurante y categoría.
+- ✅ Panel de resumen visual (dashboard con gráficos).
+- ✅ Backend simulado con `json-server`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologías usadas
+
+- ⚛️ React
+- 🔄 React Router DOM
+- 💅 TailwindCSS
+- 📊 Chart.js
+- 🗂️ json-server
+
+
+---
+
+## 📦 Instalación y ejecución
+
+1. **Clona el repositorio**:
+
+   ```bash
+   git clone https://github.com/GabrielaC01/backoffice-web.git
+   cd backoffice-web
+   ```
+
+2. **Instala las dependencias**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Inicia `json-server` con la base de datos local**:
+
+   ```bash
+   npx json-server --watch db.json --port 3001
+   ```
+
+4. **Inicia la aplicación frontend**:
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🧪 Usuario de prueba
+
+- **Usuario:** `admin@admin.com`  
+- **Contraseña:** `123456`
+
+---
+
+## 🗂️ Estructura de rutas
+
+| Ruta            | Descripción                  |
+|-----------------|------------------------------|
+| `/login`        | Pantalla de inicio de sesión |
+| `/dashboard`    | Panel resumen con gráficos   |
+| `/productos`    | Gestión de productos         |
+| `/restaurantes` | Gestión de restaurantes      |
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+📦 backoffice-web
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── App.jsx
+├── db.json
+├── tailwind.config.js
+└── README.md
+```
+
+---
+
+## 🙋‍♀️ Autor
+
+Desarrollado por **Gabriel Anthony Colque Unocc** 💻✨
