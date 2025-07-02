@@ -79,12 +79,20 @@ Aplicación web para la gestión de productos y restaurantes con autenticación,
 📦 backoffice-web
 ├── public/
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── App.jsx
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx
 ├── db.json
+├── Demo.mp4
+├── index.html
+├── package.json
+├── vite.config.js
 ├── tailwind.config.js
+├── postcss.config.cjs
 └── README.md
 ```
 
