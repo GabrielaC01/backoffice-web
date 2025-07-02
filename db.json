@@ -1,0 +1,385 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "Pizza"
+    },
+    {
+      "id": "2",
+      "nombre": "Pollería"
+    },
+    {
+      "id": "3",
+      "nombre": "Chifa"
+    }
+  ],
+  "restaurantes": [
+    {
+      "id": 1,
+      "nombre": "La Pizzería",
+      "direccion": "Av. Perú 125",
+      "telefono": "901111111",
+      "horario_atencion": "12:00 - 22:00",
+      "activo": true
+    },
+    {
+      "id": 2,
+      "nombre": "Chifa Wong",
+      "direccion": "Av. Asia 777",
+      "telefono": "902222222",
+      "horario_atencion": "11:00 - 21:00",
+      "activo": true
+    },
+    {
+      "id": 3,
+      "nombre": "Pollería Don Pollo",
+      "direccion": "Av. Aviación 789",
+      "telefono": "934567890",
+      "horario_atencion": "12:00 - 23:00",
+      "activo": false
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Pizza Margarita",
+      "precio": 35,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Pizza Pepperoni",
+      "precio": 25,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "3",
+      "nombre": "Pizza Cuatro Quesos",
+      "precio": 32,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "4",
+      "nombre": "Pollo a la Brasa 1/4",
+      "precio": 25,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "5",
+      "nombre": "Arroz Chaufa",
+      "precio": 12,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "6",
+      "nombre": "Wantán Frito",
+      "precio": 10,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "8",
+      "nombre": "Pollo Entero",
+      "precio": 45,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "9",
+      "nombre": "Alitas BBQ",
+      "precio": 18,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "10",
+      "nombre": "Pizza Hawaiana",
+      "precio": 29,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "11",
+      "nombre": "Pizza Mexicana",
+      "precio": 31,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "12",
+      "nombre": "Sopa Wantán",
+      "precio": 20,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "13",
+      "nombre": "Pollo Broaster",
+      "precio": 24,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "14",
+      "nombre": "Pizza Vegetariana",
+      "precio": 28,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "15",
+      "nombre": "Arroz Aeropuerto",
+      "precio": 36,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "16",
+      "nombre": "Pizza Napolitana",
+      "precio": 33,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "17",
+      "nombre": "Ensalada de Pollo",
+      "precio": 19,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "18",
+      "nombre": "Pizza Carbonara",
+      "precio": 31,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "19",
+      "nombre": "Siu Mai",
+      "precio": 16,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "20",
+      "nombre": "Pizza Suprema",
+      "precio": 35,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "21",
+      "nombre": "Pizza Italiana",
+      "precio": 33,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "22",
+      "nombre": "Chaufa de Pollo",
+      "precio": 27,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "23",
+      "nombre": "Pizza Romana",
+      "precio": 30,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "24",
+      "nombre": "Pollo Saltado",
+      "precio": 26,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "25",
+      "nombre": "Pizza Personal",
+      "precio": 20,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "26",
+      "nombre": "Rollito Primavera",
+      "precio": 15,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "27",
+      "nombre": "Pizza Pollo BBQ",
+      "precio": 29,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "28",
+      "nombre": "Arroz con Mariscos",
+      "precio": 34,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "29",
+      "nombre": "Pizza Champiñones",
+      "precio": 30,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "30",
+      "nombre": "Tallarín Verde con Pollo",
+      "precio": 32,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "31",
+      "nombre": "Pizza Deluxe",
+      "precio": 37,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "32",
+      "nombre": "Sopa Especial",
+      "precio": 28,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "33",
+      "nombre": "Pollo al Vino",
+      "precio": 31,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "34",
+      "nombre": "Pizza Kids",
+      "precio": 18,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "35",
+      "nombre": "Lomo Chifa",
+      "precio": 39,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "36",
+      "nombre": "Pizza Premium",
+      "precio": 40,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "37",
+      "nombre": "Combo 1/2 Pollo + Papas",
+      "precio": 35,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "38",
+      "nombre": "Pizza Queso y Tomate",
+      "precio": 26,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "39",
+      "nombre": "Arroz Taypa",
+      "precio": 38,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "40",
+      "nombre": "Pizza Especialidades",
+      "precio": 42,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "41",
+      "nombre": "Broaster Junior",
+      "precio": 21,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "42",
+      "nombre": "Pizza Don Luigi",
+      "precio": 34,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "43",
+      "nombre": "Wantán Mixto",
+      "precio": 25,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "44",
+      "nombre": "Pollo Naranja",
+      "precio": 29,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "45",
+      "nombre": "Pizza Rúcula y Queso",
+      "precio": 31,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "46",
+      "nombre": "Arroz con Pollo",
+      "precio": 24,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    },
+    {
+      "id": "47",
+      "nombre": "Pizza Fusión",
+      "precio": 38,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "48",
+      "nombre": "Chaufa Especial",
+      "precio": 41,
+      "id_restaurante": 2,
+      "id_categoria": 3
+    },
+    {
+      "id": "49",
+      "nombre": "Pizza Caprichosa",
+      "precio": 35,
+      "id_restaurante": 1,
+      "id_categoria": 1
+    },
+    {
+      "id": "50",
+      "nombre": "Pollo Apanado",
+      "precio": 27,
+      "id_restaurante": 3,
+      "id_categoria": 2
+    }
+  ]
+}
