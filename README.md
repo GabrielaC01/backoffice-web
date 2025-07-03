@@ -98,6 +98,10 @@ Aplicación web para la gestión de productos y restaurantes con autenticación,
 
 ---
 
+## 🌀 Video
+
+El demo esta disponible [aquí](https://drive.google.com/file/d/1q42S_5j2nm5nfb3cgErvVFaUT-kLyMuv/view?usp=sharing)
+  
 ## 🙋‍♀️ Autor
 
 Desarrollado por **Gabriel Anthony Colque Unocc** 💻✨
